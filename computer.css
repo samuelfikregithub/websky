@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background: #d8d8d8;
+  }
+  .all{
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)), url(../img/all/img-12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    border-bottom: 50px solid grey;
+  }
+  .menubar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menubar span{
+    color: #fff;
+    font-size: 25px;
+  }
+  .body{
+    width: 100%;
+    min-height: 100vh;
+  }
+  .collection{
+    width: 94%;
+    margin-left: 3%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .item{
+    width: 301px;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    border-radius: 10px;
+    border: #a5a5a5 1px solid;
+  }
+  .inner{
+    width: 270px;
+    height: 95%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .photo{
+    background-color: white;
+    width: 280px;
+    aspect-ratio: 1.5/1;
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+  }
+  .image:hover{
+    cursor: default;
+  }
+  
+  .discription{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    bottom: -20px;
+  }
+  .title{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #a5a5a5;
+  }
+  .title,.dis:hover{
+    cursor: default;
+  }
+  .dis{
+    margin: 5px;
+    color: white;
+    font-weight: 200;
+  }
+  .orderbox{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .orderbutton{
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #000;
+    background: #a5a5a5;
+    padding: 10px 20px;
+    color: #000;
+    transition: .5s ease;
+  }
+  .orderbutton:hover{
+    background: transparent;
+    border: 1px solid #a5a5a5;
+    color: #a5a5a5;
+  }
+  
+  
+  .display{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: url(/img/accessories/apple-airpods\ max.jfif);
+  }
+
+  /* header css */
+  
+  /* this  for header */
+  .header{
+ 
+    background-color: #063375;
+    color: #f1f7fc;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+   
+    height: 15vh;
+  
+} 
+.nav_inner h1{
+  font-weight: 900;
+  letter-spacing: 5px;
+  color:white ;
+  font-size: 30px;
+}
