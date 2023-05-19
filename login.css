@@ -76,7 +76,7 @@ body{
     border-radius: 50% / 8%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
-    background:url("imageforproject/red.jpg")
+    background:url("imageforproject/logo.png")
   }
   .login label{
     color: #dedce2;
@@ -93,6 +93,30 @@ body{
     transform: scale(.6);
   }
 
+  /*validation css*/
+  .input-control .error {
+    color: #ff3860;
+    font-size: 9px;    
+}
+  .input-control.error input {
+    border-color: #061ad4;
+}
+.error{
+
+  position:relative;
+  left: 100px;
+}
+
+#form {
+  width: 500px;
+  margin: 20vh auto 0 auto;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
 
 
 
