@@ -76,7 +76,7 @@ body{
     border-radius: 50% / 8%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
-    background:url("imageforproject/logo.png")
+    background:url("imageforproject/red.jpg")
   }
   .login label{
     color: #dedce2;
@@ -93,7 +93,40 @@ body{
     transform: scale(.6);
   }
 
-  /*validation css*/
+
+/*  login page css animation part is below */
+
+
+  body{
+
+
+    background-color: #111;
+}
+
+
+  @keyframes example {
+    0%  {background-color: rgb(71, 69, 67);}
+    10%  {background-color: rgb(2, 1, 51);}
+    15%  {background-color:rgb(50, 73, 50);}
+    25%  {background-color:  #2d3742}
+    30%  {background-color: rgb(1, 78, 78);}
+    45%  {background-color: rgb(76, 83, 99);}
+    50%  {background-color: rgb(27, 22, 21);}
+    100% {background-color: #035264;}
+  }
+
+
+
+body {
+  animation-name:example;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+  /*validation css
   .input-control .error {
     color: #ff3860;
     font-size: 9px;    
@@ -116,37 +149,5 @@ body{
 
 .input-control.success input {
   border-color: #09c372;
-}
+}*/
 
-
-
-/*  login page css animation part is below */
-
-
-  body{
-
-
-    background-color: #111;
-}
-
-
-  @keyframes example {
-    0%  {background-color: rgb(19, 17, 15);}
-    10%  {background-color: rgb(38, 94, 5);}
-    15%  {background-color:rgb(50, 73, 50);}
-    25%  {background-color:  #2d3742}
-    30%  {background-color: rgb(23, 24, 24);}
-    45%  {background-color: rgb(76, 83, 99);}
-    50%  {background-color: rgb(27, 22, 21);}
-    100% {background-color: #505e61;}
-  }
-
-
-
-body {
-  animation-name:example;
-  animation-duration: 15s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
