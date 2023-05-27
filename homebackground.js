@@ -2,9 +2,9 @@ var images = [
          'imageforproject/blue.jpg',
         'imageforproject/logo1.png',
      'imageforproject/blue.jpg)',
-    'imageforproject/cam10.jpg',
-  'imageforproject/blue.jpg',
-  'imageforproject/blue.jpg'];
+    'imageforproject/keyboard2.webp',
+  'imageforproject/hot4.png',
+  'imageforproject/tv6.png'];
   
   var currentIndex = 0;
   var backgroundElement = document.querySelector('.body1');

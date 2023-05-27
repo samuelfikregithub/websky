@@ -44,13 +44,13 @@
   body1:url(imageforproject/blue.jpg);
   }
   60% {
-    body1:url(imageforproject/blue.jpg);
+    body1:url(imageforproject/keyboard2.webp);
   }
   80% {
-    body1:url(imageforproject/blue.jpg);
+    body1:url(imageforproject/hot4.png);
   }
   0% {
-    body1:url(imageforproject/blue.jpg);
+    body1:url(imageforproject/tv7.png);
   }
 }
   .body1 h2{
@@ -102,7 +102,8 @@
     width: 100%;
     height: 100%;
     user-select: none;
-    transition: 0.5s;
+   transition: 0.8s;
+ 
   }
   .options span{
     position: absolute;
